@@ -19,6 +19,7 @@ connectCloudinary()
 app.use(express.json())
 app.use(cors({
   origin: [
+   "http://localhost:5174",
     "http://localhost:5173",
     "https://ecommerce-xi-kohl-60.vercel.app",
     "https://ecommerce-admin-alpha-seven.vercel.app"
